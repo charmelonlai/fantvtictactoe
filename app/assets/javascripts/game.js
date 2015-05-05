@@ -127,6 +127,7 @@ var ticTacToe = {
       player = '1';
       $('#board').on('click', 'td', ticTacToe.playMove);
       $('#undo').click(ticTacToe.undo);
+      $('#message').text("Player " + player);
     }
 };
 $(ticTacToe.start);
