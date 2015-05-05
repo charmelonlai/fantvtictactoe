@@ -21,5 +21,6 @@
 #message
 
 #button
-  =button_to "new game", root_path, :method => :get, :class => "btn btn-default", :id => 'newgame'
+  //=button_to "new game", root_path, :method => :get, :class => "btn btn-default", :id => 'newgame'
+  %button{:id => "newgame", :class => "btn btn-default"} new game
   %button{:id => "undo", :class => "btn btn-default"} undo

@@ -5,6 +5,7 @@ var ticTacToe = {
 	start: function() {
     	$('#board').on('click', 'td', ticTacToe.playMove);
     	$('#undo').click(ticTacToe.undo);
+      $('#newgame').click(ticTacToe.reset);
     	$('#message').text("Player " + player);
   	},
   	playMove: function() {
@@ -117,6 +118,15 @@ var ticTacToe = {
 	  		}
 	    	$('#message').text("Player " + player);
       	}
-  	}
+  	},
+    reset: function() {
+      for (var i =1; i <= 9; i++) {
+        $('#space' + i).text('').removeClass('win'); 
+      }
+      movesStack = new Array();
+      player = '1';
+      $('#board').on('click', 'td', ticTacToe.playMove);
+      $('#undo').click(ticTacToe.undo);
+    }
 };
 $(ticTacToe.start);

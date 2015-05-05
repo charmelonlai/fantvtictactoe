@@ -15874,3 +15874,27 @@ Started GET "/" for ::1 at 2015-05-05 07:56:24 -0700
 Processing by GameController#index as HTML
   Rendered game/index.html.haml within layouts/application (0.9ms)
 Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-05 12:31:35 -0700
+Processing by GameController#index as HTML
+  Rendered game/index.html.haml within layouts/application (23.3ms)
+Completed 200 OK in 1220ms (Views: 1164.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-96ca8c328a804c84932a62348382afefa6a8371618399adfce03efc51e09851d.js" for ::1 at 2015-05-05 12:31:37 -0700
+
+
+Started GET "/" for ::1 at 2015-05-05 12:31:39 -0700
+Processing by GameController#index as HTML
+  Rendered game/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-05-05 12:32:19 -0700
+Processing by GameController#index as HTML
+  Rendered game/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 316ms (Views: 315.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5a2a2bea30d6237565f4743d309dac64c54ea300b144d311197997ef71c3556f.js" for ::1 at 2015-05-05 12:32:20 -0700
