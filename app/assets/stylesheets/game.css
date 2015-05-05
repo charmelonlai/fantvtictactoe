@@ -1,0 +1,53 @@
+body {
+  background-color: #faf8ef;
+	text-align: center;
+}
+
+h1{
+  font-size:68px;
+  font-weight: bold;
+  color: #776e65
+}
+
+#message {
+  font-weight: bold;
+  color: #776e65;
+  font-size: 24px;
+}
+
+#board {
+  margin: auto;
+  border-spacing: 0;
+}
+
+td {
+  border-bottom: 3px solid #776e65;
+  border-right: 3px solid #776e65;
+  border-left: 3px solid #776e65;
+  border-top: 3px solid #776e65;
+
+  width: 100px;
+  height: 100px;
+  font-size: 65px;
+  font-weight:bold;
+  text-align: center;
+}
+
+#newgame{
+  background-color: #8f7a66;
+  color: white;
+}
+
+#undo{
+  background-color: #8f7a66;
+  color: white;
+
+}
+
+.color {
+  color: #776e65;
+}
+
+.win {
+  color:green;
+}

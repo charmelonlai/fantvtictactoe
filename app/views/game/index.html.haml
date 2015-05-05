@@ -1,0 +1,25 @@
+!!! 5
+%br/
+%br/
+%br/
+%h1 tictactoe.
+
+%table{:id => "board"}
+  %tbody
+    %tr
+      %td{:id => "space1"}
+      %td{:id => "space2"}
+      %td{:id => "space3"}
+    %tr
+      %td{:id => "space4"}
+      %td{:id => "space5"}
+      %td{:id => "space6"}
+    %tr
+      %td{:id => "space7"}
+      %td{:id => "space8"}
+      %td{:id => "space9"}
+#message
+
+#button
+  =button_to "new game", root_path, :method => :get, :class => "btn btn-default", :id => 'newgame'
+  %button{:id => "undo", :class => "btn btn-default"} undo
